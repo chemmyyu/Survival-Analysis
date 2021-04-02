@@ -24,3 +24,4 @@ fit <- survfit(Surv(AchievedToolLife, Event) ~ ToolType, data = SampleData)
 autoplot(fit, conf.int = FALSE, facets = TRUE, ncol = 1)
 
 #test
+#test2
