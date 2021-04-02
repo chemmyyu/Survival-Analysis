@@ -22,3 +22,5 @@ SampleData = Data1[Data1$ToolType %in% c('F019L0B373','F019L0B726','F019L0B720')
 fit <- survfit(Surv(AchievedToolLife, Event) ~ ToolType, data = SampleData)
 
 autoplot(fit, conf.int = FALSE, facets = TRUE, ncol = 1)
+
+#test
